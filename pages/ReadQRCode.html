@@ -94,6 +94,55 @@
             margin-top: 10px !important;
         }
 
+        .manual-input-container {
+            margin-top: 25px;
+        }
+
+        .manual-input-container label {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #4A1C0E;
+            display: block;
+        }
+
+        .input-group {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-group input {
+            border: 1px solid #ddd;
+            border-right: none;
+            padding: 12px 15px;
+            font-size: 1rem;
+        }
+
+        .input-group input:focus {
+            border-color: #E6A141;
+            box-shadow: 0 0 0 3px rgba(230, 161, 65, 0.2);
+            outline: none;
+        }
+
+        .input-group button {
+            background-color: #E6A141;
+            border: 1px solid #E6A141;
+            color: #4A1C0E;
+            font-weight: bold;
+            padding: 0 20px;
+            transition: all 0.2s;
+        }
+
+        .input-group button:hover {
+            background-color: #d18f36;
+            border-color: #d18f36;
+        }
+
+        .input-group button:active {
+            transform: scale(0.98);
+        }
+
     </style>
 </head>
 <body>
@@ -108,9 +157,23 @@
             <div class="text-start">
                 <h1 class="page-title">Ler QR-Codes</h1>
             </div>
+
             <div id="reader"></div>
+
+            <button id="startCamera" class="btn btn-warning w-100 mb-3">
+                <i class="fa-solid fa-camera me-2"></i>Ativar câmera
+            </button>
+
+            <div class="manual-input-container">
+                <label for="manualCode"><i class="fa-solid fa-keyboard me-2"></i>Inserir código manualmente</label>
+                <div class="input-group">
+                    <input type="text" id="manualCode" class="form-control" placeholder="Digite o código...">
+                    <button class="btn" type="button" id="submitManualCode">Enviar</button>
+                </div>
+            </div>
         </div>
     </div>
+    
     <script src="../JS/QR_Reader.js"></script>
 </body>
 </html>
