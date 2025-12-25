@@ -1,4 +1,4 @@
-# EcoLink - Caverna do Mandacaru
+# EcoLink
 
 O **EcoLink** é uma plataforma digital educativa projetada para auxiliar visitantes e pesquisadores durante a exploração da Caverna do Mandacaru, localizada em Campo Formoso, Bahia. O objetivo do projeto é organizar e facilitar o acesso a informações geológicas e ambientais coletadas no local.
 
