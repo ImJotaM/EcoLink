@@ -1,0 +1,13 @@
+Claraboia
+
+A Claraboia é um ponto da caverna que se diferencia pela presença de uma abertura natural no teto, permitindo a entrada de luz externa. As medições registradas foram:
+
+Temperatura: 27,3 °C;
+Umidade: 55%;
+Altura do teto: 13,6 metros;
+Distância da parede direita: 6,9 metros;
+Distância da parede esquerda: 16,7 metros.
+
+A entrada de luz influencia diretamente o microclima do local, podendo favorecer o surgimento de vegetação e outros elementos naturais próximos à abertura. Esse ambiente destacou-se tanto por sua estrutura quanto pelo contraste visual e ambiental em relação aos demais espaços internos da caverna.
+
+[claraboia.png]

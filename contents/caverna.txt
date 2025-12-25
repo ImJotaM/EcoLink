@@ -1,7 +1,0 @@
-Título da página
-
-Texto que vai aparecer na página
-
-[imagem_exemplo.png]
-
-Mais texto que irá aparecer na página
