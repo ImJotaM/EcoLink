@@ -2,14 +2,14 @@ Travertino
 
 Neste ponto específico da caverna, o principal destaque foi a presença do travertino. As medições registradas neste local foram:
 
-Temperatura: 27,2 °C;
-Umidade: 55%;
-Altura: 4,9 metros;
-Desnível do chão: 2,15 metros.
+**Temperatura:** 27,2 °C
+**Umidade:** 55%
+**Altura:** 4,9 metros
+**Desnível do chão:** 2,15 metros
 
 O travertino forma-se a partir da circulação de água rica em minerais, que deposita lentamente o carbonato de cálcio no interior da caverna. Essa formação evidencia a importância da água nos processos de origem e evolução das cavernas, além de reforçar a necessidade de preservação do ambiente, uma vez que interferências externas podem comprometer esse equilíbrio natural.
 
-TRAVERTINO
+# Travertino
 
 [travertino.png]
 

@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
+    const formatBold = (text) => {
+        return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    };
+
     fetch(`../contents/${pageId}.txt`)
         .then(response => {
             if (!response.ok) throw new Error("Arquivo não encontrado");
@@ -25,21 +29,33 @@ document.addEventListener("DOMContentLoaded", () => {
             lines.forEach(line => {
                 const imgMatch = line.match(/\[(.*?)\]/);
 
-                if (imgMatch) {
+                if (line.startsWith('#')) {
+                    const subtitleText = line.replace('#', '').trim();
+                    const subtitle = document.createElement('h5');
+                    subtitle.innerText = subtitleText;
+                    subtitle.className = "content-subtitle";
+                    subtitle.style.marginTop = "30px";
+                    subtitle.style.marginBottom = "15px";
+                    subtitle.style.fontWeight = "bold";
+                    container.appendChild(subtitle);
+                } 
+                else if (imgMatch) {
                     const imgSrc = imgMatch[1];
                     const imgElement = document.createElement('img');
                     imgElement.src = `../assets/imgs/${imgSrc}`;
                     imgElement.className = "content-img shadow-sm";
                     imgElement.style.marginBottom = "25px";
+                    imgElement.style.display = "block";
                     container.appendChild(imgElement);
-                } else {
+                } 
+                else {
                     const textSection = document.createElement('div');
                     textSection.className = "content-section";
                     textSection.style.marginBottom = "25px";
                     
                     const textDiv = document.createElement('div');
                     textDiv.className = "content-text";
-                    textDiv.innerText = line;
+                    textDiv.innerHTML = formatBold(line);
                     
                     textSection.appendChild(textDiv);
                     container.appendChild(textSection);

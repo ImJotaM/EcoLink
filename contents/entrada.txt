@@ -2,18 +2,18 @@ Entrada da caverna
 
 Na entrada da gruta, foram observadas diferentes formações geológicas, formadas principalmente pela ação contínua da água ao longo de extensos períodos de tempo. As medições realizadas nesse ponto foram:
 
-Umidade: 52%;
-Temperatura: 28,3 °C;
-Altura aproximada: 11,4 metros;
-Largura aproximada: 11,4 metros.
+**Umidade:** 52%
+**Temperatura:** 28,3 °C
+**Altura aproximada:** 11,4 metros
+**Largura aproximada:** 11,4 metros
 
 As formações observadas desse ponto foram registradas por meio de anotações descritivas, com destaque para:
 
-Estalactites: São formações espeleológicas que se desenvolvem no teto das cavernas, crescendo no sentido de cima para baixo. Sua formação ocorre a partir do gotejamento contínuo de água rica em calcário, que, ao pingar, deposita lentamente minerais. Trata-se de um processo extremamente lento, podendo levar milhares de anos para que uma estalactite cresça apenas alguns centímetros;
+**Estalactites:** São formações espeleológicas que se desenvolvem no teto das cavernas, crescendo no sentido de cima para baixo. Sua formação ocorre a partir do gotejamento contínuo de água rica em calcário, que, ao pingar, deposita lentamente minerais. Trata-se de um processo extremamente lento, podendo levar milhares de anos para que uma estalactite cresça apenas alguns centímetros;
 
-Cortina: Essa formação ocorre quando a água escoa de forma mais espalhada pelas paredes inclinadas da caverna, em vez de pingar diretamente. Com o tempo, esse escorrimento contínuo resulta na deposição de lâminas finas de calcário, que apresentam aparência semelhante a uma cortina ou véu de pedra;
+**Cortina:** Essa formação ocorre quando a água escoa de forma mais espalhada pelas paredes inclinadas da caverna, em vez de pingar diretamente. Com o tempo, esse escorrimento contínuo resulta na deposição de lâminas finas de calcário, que apresentam aparência semelhante a uma cortina ou véu de pedra;
 
-Cone: O cone é uma formação que se desenvolve no chão da caverna e apresenta formato pontiagudo ou cônico. Ele se forma a partir do gotejamento constante da água em um mesmo ponto, concentrando o acúmulo de minerais. Em determinadas condições, esses cones podem crescer até se unirem às estalactites, originando colunas.
+**Cone:** O cone é uma formação que se desenvolve no chão da caverna e apresenta formato pontiagudo ou cônico. Ele se forma a partir do gotejamento constante da água em um mesmo ponto, concentrando o acúmulo de minerais. Em determinadas condições, esses cones podem crescer até se unirem às estalactites, originando colunas.
 
 [caverna1.png]
 
